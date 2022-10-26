@@ -1,5 +1,5 @@
 # Implementando un artículo sobre django y htmx
-## Task list
+## Lista de tareas
 
 He modificado algunas cosas y he implementado la opción de añadir una nueva tarea.
 
