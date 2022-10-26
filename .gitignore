@@ -1,0 +1,6 @@
+/bin
+/users
+/tasks/migrations/
+comandos.txt
+ *.pyc
+ __pycache__
