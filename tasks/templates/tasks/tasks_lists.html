@@ -1,4 +1,5 @@
 <div id="tot">
+	
 	<div id="tasks"
 	hx-confirm="Are you sure you want to delete this task?"
 	hx-target="#tot"
@@ -10,7 +11,7 @@
 	{% endfor %}
 	</div>
 <hr>
-	<div id="adding">
+	<div>
 		<input type="text" name="tarea" placeholder="add a new task and press TAB/ENTER" size="75"
 		hx-post="{% url 'add_task' %}" 
 		hx-trigger="change"
