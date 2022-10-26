@@ -1,7 +1,9 @@
 # Implementando un artículo sobre django y htmx
 ## Task list
 
-He modificado algunas cosas
+He modificado algunas cosas y he implementado la opción de añadir una nueva tarea.
+
+La tarea se genera al salir del campo de texto después de escribir la descripción de la nueva tarea
 
 ![alt text](https://raw.githubusercontent.com/estravagancia/django_htmx-task_list/main/tasks.jpg)
 
