@@ -1,3 +1,4 @@
+####### Poner este archivo en un nivel superior. Ejemplo: C:\inetpub\desarrollo\django\ - y borrar esta línea ######
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <system.webServer>
@@ -13,7 +14,7 @@
   </system.webServer>
 
   <appSettings>
-    <add key="PYTHONPATH" value="C:\inetpub\desarrollo\django\django_test\django_project" />
+    <add key="PYTHONPATH" value="C:\inetpub\desarrollo\django\django_project" />
     <add key="WSGI_HANDLER" value="django_project.wsgi.application" />
     <add key="DJANGO_SETTINGS_MODULE" value="django_project.settings" />
   </appSettings>
