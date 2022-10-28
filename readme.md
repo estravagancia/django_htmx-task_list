@@ -12,3 +12,7 @@ Artículo:
 https://www.mattlayman.com/blog/2021/how-to-htmx-django/
 Autor:
 https://github.com/mblayman
+
+Usando IIS sobre windows 10
+a partir de la información encontrada en: 
+https://github.com/Johnnyboycurtis/webproject
