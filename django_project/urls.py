@@ -3,5 +3,5 @@ from django.urls import path, include
 from tasks import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tasks/', include('tasks.urls')),
+    path('', include('tasks.urls')),
 ]

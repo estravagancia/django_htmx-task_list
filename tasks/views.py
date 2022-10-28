@@ -9,7 +9,7 @@ def display_tasks(request):
     
 @require_http_methods(['DELETE'])
 def delete_task(request, id):
-    Task.objects.all().filter(id=id).delete()
+    Task.objects.filter(id=id).delete()
     tasks = Task.objects.all()
     return render(request, 'tasks/tasks_lists.html', {'tasks': tasks})
 

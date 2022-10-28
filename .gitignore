@@ -1,6 +1,7 @@
 /bin
 /users
-/tasks/migrations/
+/tasks/migrations
 comandos.txt
  *.pyc
+*.cpython-*
 /__pycache__
