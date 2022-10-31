@@ -2,6 +2,7 @@
 /users
 /tasks/migrations
 comandos.txt
+db.sqlite3
  *.pyc
 *.cpython-*
 /__pycache__
