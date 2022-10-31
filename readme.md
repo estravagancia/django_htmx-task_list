@@ -8,6 +8,8 @@ La tarea se genera al salir del campo de texto después de escribir la descripci
 ![alt text](https://raw.githubusercontent.com/estravagancia/django_htmx-task_list/main/tasks.jpg)
 
 
+![alt text](https://raw.githubusercontent.com/estravagancia/django_htmx-task_list/main/tasks-boton.jpg)
+
 Artículo:
 https://www.mattlayman.com/blog/2021/how-to-htmx-django/
 Autor:
