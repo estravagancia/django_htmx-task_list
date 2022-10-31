@@ -43,7 +43,7 @@
     >
         {% for task in tasks %}
         <div class="d-flex justify-content-between">
-            {{ forloop.counter }}) {{ task.description }}
+            <div>{{ forloop.counter }}) {{ task.description }}</div><div>{{task.created_at}}</div>
             <button
                 hx-delete="{% url 'delete_task' task.id %}"
                 class="btn btn-danger btn-sm d-flex justify-content-end"
