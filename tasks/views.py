@@ -16,6 +16,7 @@ def delete_task(request, id):
 @require_http_methods(['POST'])
 def add_task(request):
     texto=request.POST.get("tarea")
-    Task.objects.create(description=texto)
-    tasks = Task.objects.all()
+    if texto != '' :
+        Task.objects.create(description=texto)
+        tasks = Task.objects.all()
     return render(request, 'tasks/tasks_lists.html', {'tasks': tasks})
